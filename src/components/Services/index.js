@@ -9,7 +9,7 @@ class Services extends Component {
       <div className="flex-l justify-center mb4">
         <div className="w-third-l">
           <p className="dn-l f-2 pb3 brand ma2 b">
-            Expertise to help you scale.
+           hgdshjgfh
           </p>
           <div
             className="w3 h3 content-box pa2 center contain bg-center"
@@ -18,24 +18,24 @@ class Services extends Component {
           />
           <h3 className="f-1 brand ttu">Innovation</h3>
           <ul className="list center mw-100-l pa0 f5 lh-copy mh-gray tracked-mh">
-            <li className="mv2">Design Thinking</li>
-            <li className="mv2">Rapid prototyping</li>
-            <li className="mv2">New technology Research & Migration</li>
+            <li className="mv2">hjdsgvjhz</li>
+            <li className="mv2">ygjdsuygvsudyi</li>
+            <li className="mv2">hjdsghjcgdsjak</li>
             <li className="mv2">
-              Business Model, Product & Features Experimentation
+              ukdfhcukjv
             </li>
           </ul>
         </div>
         <div className="w-third-l mb5">
-          <p className="dn-l f-2 pb3 brand ma2 b">Training to help you grow.</p>
+          <p className="dn-l f-2 pb3 brand ma2 b">buszxkghvukjzh</p>
           <div
             className="w3 h3 content-box pa2 center contain bg-center"
             style={{ backgroundImage: `url(${IconTechnology})` }}
             alt=""
           />
-          <h3 className="f-1 brand ttu">Tech Partnership</h3>
+          <h3 className="f-1 brand ttu">yhjdsgzvjkcdshnz</h3>
           <ul className="list center mw-100-l pa0 f5 lh-copy mh-gray tracked-mh">
-            <li className="mv2">Core Product & Project Delivery</li>
+            <li className="mv2">jkdfhxvuifdshxcx</li>
             <li className="mv2">MVP Implementation</li>
             <li className="mv2">Inception and Project Planning</li>
             <li className="mv2">End-to-end Product Design</li>
