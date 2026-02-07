@@ -1,26 +1,35 @@
-# gatsby-starter-default
-The default Gatsby starter.
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+---
 
-## Install
+### C. `mavenhive-website` – README
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
+```markdown
+# MavenHive Website
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
+This repository hosts the public website for **MavenHive**, my startup focused on
+AI–driven automation and analytics products.
 
-Then you can run it by:
-```sh
-cd gatsby-example-site
-npm run develop
-```
+Beyond the company site itself, I keep this repository public so that other developers
+can study and reuse the **frontend architecture and deployment patterns**.
 
-## Deploy
+## What this project showcases
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+- Modern component-based web stack (e.g. React / modern JS bundler)
+- Routing, layout and responsive design for a marketing site
+- Simple content structure for product pages and blog-style updates
+- Basic CI / deployment workflow suitable for small startups
+
+## Why it is public
+
+- To act as a **reference implementation** for mentees building their first product sites.
+- To show how to keep a codebase clean and modular even for “simple” marketing pages.
+- To give the community a concrete example of **shipping a real product website** end-to-end.
+
+## Running locally
+
+```bash
+git clone https://github.com/dunamis2015/mavenhive-website.git
+cd mavenhive-website
+
+npm install
+npm run dev    # or npm start, depending on framework
