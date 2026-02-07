@@ -1,29 +1,35 @@
-# Mavenhive Website
 
-You can deploy this to Netlify using this: 
+---
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/MavenHive/mavenhive-website&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+### C. `mavenhive-website` – README
 
-## Setup
+```markdown
+# MavenHive Website
 
-* Unzip the file or clone the repo and run `npm install` to install all the dependencies. 
-* Run `npm run build` to build the site ( or `npm run start` to start the development mode)
+This repository hosts the public website for **MavenHive**, my startup focused on
+AI–driven automation and analytics products.
 
-## Libraries used
+Beyond the company site itself, I keep this repository public so that other developers
+can study and reuse the **frontend architecture and deployment patterns**.
 
-* [GatsbyJS](https://www.gatsbyjs.org/) - A static site generator for React
-* [TachyonsCSS](https://tachyons.io/) - A functional CSS Toolkit
-* [NetlifyCMS](https://www.netlifycms.org/) - As an npm package that takes care of the admin/CMS part
+## What this project showcases
 
-## Files/Folders of importance
+- Modern component-based web stack (e.g. React / modern JS bundler)
+- Routing, layout and responsive design for a marketing site
+- Simple content structure for product pages and blog-style updates
+- Basic CI / deployment workflow suitable for small startups
 
-* `src/pages` - To create a page, add a markdown file to this folder. The route is automatically added with the file name. Eg. `about.md` compiles to `/about/index.html`
-* `src/content` - This folder has content in `JSON` format for all the pages.
-* `static/img` - Any image uploaded via the CMS gets added here.
-* `static/admin` - This has the config for NetlifyCMS. You can add fields for pages and also assign widgets to each field. [More info here](https://www.netlifycms.org/docs/widgets/)
+## Why it is public
 
-## How are all these connected and what happens behind the scenes?
+- To act as a **reference implementation** for mentees building their first product sites.
+- To show how to keep a codebase clean and modular even for “simple” marketing pages.
+- To give the community a concrete example of **shipping a real product website** end-to-end.
 
-1. When one edits the content on NetlifyCMS, those files(JSON) are pushed to `src/content` folder. It understands what repo to use and where to dump content based on the `static/admin/config.yml` file
-2. Gastby's responsibility is to build the site and dump it into `public` folder. This happens whenever we run `npm run build`. The JSON files from `src/content` folder are used to build each page.
-3. Netlify just runs the `npm run build` command on every push to `master` branch and serves the `public` folder
+## Running locally
+
+```bash
+git clone https://github.com/dunamis2015/mavenhive-website.git
+cd mavenhive-website
+
+npm install
+npm run dev    # or npm start, depending on framework
